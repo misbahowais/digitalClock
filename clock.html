@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style src="timer.css"></style>
+<body>
+    <div class="contain">
+        <div class="display">00:00:00</div>
+        <div class="displayButton">
+            <div class="button">
+                <button class="button" name="start" onclick="startInterval()">start</button>
+                <button class="button" name="stop" onclick="closeInterval()">stop</button>
+            </div>
+        </div>
+    </div>
+    <style>
+        .contain {
+            margin: 5%;
+        }
+        .input, .display, .textClass, .displayButton {
+            font-size: 30px;
+            text-align: center;
+            align-content: center;
+        }
+        .button{
+            font-size: 20px;;
+        }
+    </style>
+    <script src="clock.js"></script>
+</body>
+</html>
